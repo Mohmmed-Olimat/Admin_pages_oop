@@ -1,8 +1,10 @@
 <?php
-/*session_start();
+session_start();
 if(!$_SESSION['admin_id']){
     header("location:login.php");
-}*/
+}
+
+
  ?>
 
 
@@ -304,8 +306,8 @@ if(!$_SESSION['admin_id']){
                                 <div class="noti-wrap">
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-comment-more"></i>
-                                        <span class="quantity">1</span>
-                                        <div class="mess-dropdown js-dropdown">
+                                        <!-- <span class="quantity">1</span> -->
+                                       <!--  <div class="mess-dropdown js-dropdown">
                                             <div class="mess__title">
                                                 <p>You have 2 news message</p>
                                             </div>
@@ -332,11 +334,11 @@ if(!$_SESSION['admin_id']){
                                             <div class="mess__footer">
                                                 <a href="#">View all messages</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-email"></i>
-                                        <span class="quantity">1</span>
+                                     <!--    <span class="quantity">1</span>
                                         <div class="email-dropdown js-dropdown">
                                             <div class="email__title">
                                                 <p>You have 3 New Emails</p>
@@ -371,11 +373,11 @@ if(!$_SESSION['admin_id']){
                                             <div class="email__footer">
                                                 <a href="#">See all emails</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-notifications"></i>
-                                        <span class="quantity">3</span>
+                                      <!--   <span class="quantity">3</span>
                                         <div class="notifi-dropdown js-dropdown">
                                             <div class="notifi__title">
                                                 <p>You have 3 Notifications</p>
@@ -410,7 +412,7 @@ if(!$_SESSION['admin_id']){
                                             <div class="notifi__footer">
                                                 <a href="#">All notifications</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="account-wrap">
@@ -419,7 +421,10 @@ if(!$_SESSION['admin_id']){
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                           
+                                            
+                                         <a class="js-acc-btn" href="#">Admin</a>
+                                           
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">

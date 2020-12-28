@@ -1,7 +1,7 @@
  <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2020 . All rights reserved. Template Eidt by <a href="https://colorlib.com">Olimat    </a>.</p>
+                                    <p>Copyright © 2020 . All rights reserved. Template Eidted by <a href="https://colorlib.com">Olimat    </a>.</p>
                                 </div>
                             </div>
                         </div>

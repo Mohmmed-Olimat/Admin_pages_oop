@@ -56,6 +56,19 @@
     $c->query($query);
   }
 
+      public function loginadmin($email,$password)
+  {
+
+    $query = "select * from admin where admin_email = '$email' AND 
+              admin_password = '$password'";
+
+    $c=$this->connect();
+    $result = $c->query($query);
+    return $result;
+
+  }
+
+
 
     }
     ?>
